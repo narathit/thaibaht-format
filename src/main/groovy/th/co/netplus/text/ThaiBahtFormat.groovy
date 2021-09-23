@@ -108,20 +108,21 @@ class ThaiBahtFormat{
 		}
 		return builder.toString()
 	}
- 
-	String format(BigInteger number) {
+
+	 
+	String format(BigInteger number, boolean withOnly = true) {
 		return format(new BigDecimal(number))
 	}
-	String format(double number) {
+	String format(double number, boolean withOnly = true) {
 		return format(new BigDecimal(number))
 	}
-	String format(float number) {
+	String format(float number, boolean withOnly = true) {
 		return format(new BigDecimal(number))
 	}
-	String format(int number) {
+	String format(int number, boolean withOnly = true) {
 		return format(new BigDecimal(number))
 	}
-	String format(long number) {
+	String format(long number, boolean withOnly = true) {
 		return format(new BigDecimal(number))
 	}
 
