@@ -3,6 +3,7 @@ plugins {
 	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
 	id 'groovy'
 	id 'eclipse'
+	id 'maven-publish'
 }
 
 group = 'th.co.netplus'
@@ -26,3 +27,9 @@ dependencies {
 test {
 	useJUnitPlatform()
 }
+
+jar{
+	archiveClassifier = ''
+	archiveVersion="${project.version}"
+}
+
