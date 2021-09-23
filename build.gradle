@@ -1,0 +1,28 @@
+plugins {
+	id 'org.springframework.boot' version '2.5.4'
+	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+	id 'groovy'
+	id 'eclipse'
+}
+
+group = 'th.co.netplus'
+version = '0.0.1'
+sourceCompatibility = JavaVersion.VERSION_1_8
+targetCompatibility = JavaVersion.VERSION_1_8
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter'
+	implementation 'org.codehaus.groovy:groovy:2.5.6'
+    implementation "org.apache.commons:commons-configuration2:2.2"
+	testImplementation 'org.spockframework:spock-core:2.0-groovy-2.5'
+	testImplementation 'org.spockframework:spock-spring:2.0-groovy-2.5'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+
+test {
+	useJUnitPlatform()
+}

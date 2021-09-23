@@ -1,0 +1,17 @@
+{"properties": [
+  {
+    "name": "thaiBath.format.scales",
+    "type": "java.lang.String",
+    "description": "A description for 'thaiBath.format.scales'"
+  },
+  {
+    "name": "thaiBath.format.digits",
+    "type": "java.lang.String",
+    "description": "A description for 'thaiBath.format.digits'"
+  },
+  {
+    "name": "thaiBath.format.symbols",
+    "type": "java.lang.String",
+    "description": "A description for 'thaiBath.format.symbols'"
+  }
+]}
