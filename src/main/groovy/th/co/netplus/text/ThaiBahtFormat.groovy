@@ -104,6 +104,7 @@ class ThaiBahtFormat{
 		} else {
 			builder.append(getNumberText(compound[1].toBigIntegerExact()))
 			builder.append(SYMBOLS[3].toString())
+			builder.append(SYMBOLS[2].toString())
 		}
 		return builder.toString()
 	}
